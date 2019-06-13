@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  root 'chatroom#home'
+  root 'chatroom#index'
   get 'login', to:'chatroom#login' 
 end
