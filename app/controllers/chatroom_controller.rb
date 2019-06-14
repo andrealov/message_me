@@ -3,7 +3,4 @@ class ChatroomController < ApplicationController
 
     end
 
-    def login
-
-    end
 end
