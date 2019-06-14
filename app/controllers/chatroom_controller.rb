@@ -1,5 +1,5 @@
 class ChatroomController < ApplicationController
-    def index
+    def home
 
     end
 
