@@ -37,9 +37,6 @@ gem 'semantic-ui-sass'
 gem 'jquery-rails'
 gem 'hirb'
 
-# Redis gemfile
-gem 'redis'
-
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
@@ -65,6 +62,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :production do
 
   gem 'pg'
-  gem 'redis'
 
 end
